@@ -1,0 +1,51 @@
+h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilizando os botões */
+button {
+    display: block;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 5px auto;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilizando o input de texto */
+input[type="text"] {
+    display: block;
+    width: 200px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 5px auto 10px;
+}
+
+/* Estilizando a div do avatar */
+#avatarContainer {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Estilizando a imagem do avatar */
+#imgAvatar {
+    width: 250px;
+    height: 300px;
+}
